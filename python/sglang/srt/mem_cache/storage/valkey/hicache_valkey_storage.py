@@ -42,6 +42,7 @@ class HiCacheValkeyStorage(HiCacheStorage):
             port=port,
             db=db,
             password=password,
+            client_name="sglang_cache_client",
             decode_responses=False,  # Keep binary data as bytes
         )
 
